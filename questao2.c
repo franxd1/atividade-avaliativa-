@@ -8,7 +8,8 @@ int main(){
    int g;
    int r;
    scanf("%d",&entrada);
-// pega o resto
+// pega o resto 
+
 r=0;
   h = entrada % 2;
   g = entrada / 2;
