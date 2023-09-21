@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main(){
-
+//questao 2
    int entrada;
    int resto;
    int valordiv;
