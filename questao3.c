@@ -4,20 +4,20 @@ int main(){
 int novasenha;
 int senha;
 
-printf("\ncrie uma senha:");
+printf("crie uma senha:\n");
 scanf("%d",&novasenha);
-printf("\nsenha cadastrada:%d",novasenha);
+printf("senha cadastrada:%d\n",novasenha);
 
-printf("\ndigite sua senha:");
+//printf("digite sua senha:\n");
 scanf("%d",&senha);
 
 while (novasenha != senha)
 {
-    printf("\nsenha invalida!"); 
-    printf("\ndigite sua senha:");
+    printf("senha invalida!\n"); 
+   // printf("\ndigite sua senha:");
     scanf("%d",&senha);
 }
-printf("\nsenha valida!");
+printf("senha valida!\n");
 
 return 0;
 }

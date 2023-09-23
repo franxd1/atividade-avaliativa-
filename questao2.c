@@ -6,31 +6,33 @@ int main(){
    int entrada;
    int resto;
   
-   int controlador;
+   int controlador = 0;
   
 
-   int alg = entrada;
 
   scanf("%d",&entrada);
+   int alg = entrada;
 
   resto = entrada % 2;
   
     while (alg > 0) {
-        int digito = alg % 10; 
-        controlador += digito; 
+        int digito = alg % 10;
+       
+        controlador += digito;
+    
         alg /= 10; 
     }
 
   
 if (resto == 0){
 
- printf("\n%d eh par", entrada);
- printf("\nA soma dos algarismos de %d eh igual a %d",entrada ,controlador);
+ printf("%d eh par\n", entrada);
+ printf("A soma dos algarismos de %d eh igual a %d\n",entrada ,controlador);
 
 }else{
 
  printf("%d eh impar\n",entrada);
- printf("A soma dos algarismos de %d eh igual a %d",entrada ,controlador);  
+ printf("A soma dos algarismos de %d eh igual a %d\n",entrada ,controlador);  
 
 }
  
