@@ -27,12 +27,12 @@ int main(){
 if (resto == 0){
 
  printf("%d eh par\n", entrada);
- printf("A soma dos algarismos de %d eh igual a %d\n",entrada ,controlador);
+ printf("A soma dos algarismos de %d eh %d\n",entrada ,controlador);
 
 }else{
 
  printf("%d eh impar\n",entrada);
- printf("A soma dos algarismos de %d eh igual a %d\n",entrada ,controlador);  
+ printf("A soma dos algarismos de %d eh %d\n",entrada ,controlador);  
 
 }
  
