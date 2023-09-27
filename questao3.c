@@ -4,9 +4,9 @@ int main(){
 int novasenha;
 int senha;
 
-printf("crie uma senha:\n");
+//printf("crie uma senha:\n");
 scanf("%d",&novasenha);
-printf("senha cadastrada:%d\n",novasenha);
+printf("senha cadastrada: %d\n",novasenha);
 
 //printf("digite sua senha:\n");
 scanf("%d",&senha);

@@ -6,10 +6,10 @@ int main(){
   char call;
   double sfim;
   
-  printf ("classe:");
+  //printf ("classe:");
   scanf("%c",&call); 
   
-  printf ("salario:");
+ // printf ("R$\n");
   scanf("%lf",&salario);
    //printf ("%.0f",salario);
   
@@ -27,7 +27,7 @@ int main(){
         sfim =  (8 * salario) /100 + salario;
         break;
    }
-     printf ("%0.2f",sfim);
+     printf ("R$ %0.2f",sfim);
   
  return 0;
 }
