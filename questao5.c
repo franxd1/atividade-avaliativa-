@@ -39,19 +39,19 @@ if(a == b ){
     if(resto == 0){
             if(a > b){
                 printf("%d eh maior que %d\n",a ,b);
-                printf("%d  eh multiplo de %d\n",a ,b);    
+                printf("%d eh multiplo de %d\n",a ,b);    
             } else if(b > a){
                 printf("%d eh maior que %d\n",b,a);
-                printf("%d  eh multiplo de %d\n",b,a);
+                printf("%d eh multiplo de %d\n",b,a);
             }
     }else if(resto != 0){
             if(a > b){
                 printf("%d eh maior que %d\n",a ,b);
-                printf("%d  nao eh multiplo de %d\n",a ,b);
+                printf("%d nao eh multiplo de %d\n",a ,b);
 
             } else if(b > a){ 
                 printf("%d eh maior que %d\n",b , a);
-                printf("%d  nao eh multiplo de %d\n",b , a);
+                printf("%d nao eh multiplo de %d\n",b , a);
             }
         }
     }
